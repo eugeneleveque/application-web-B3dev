@@ -25,7 +25,7 @@ export default function Hero() {
         <p className="text-lg md:text-xl mb-6 max-w-xl mx-auto drop-shadow-md">
           Ils sont ronds, pointus, collectors, et surtout prêts à tout. Adoptez le vôtre dès maintenant.
         </p>
-          <button className="bg-yellow-400 text-black text-lg font-semibold px-6 py-3 rounded-full hover:bg-yellow-300 transition duration-300">
+          <button href="/products" className="bg-yellow-400 text-black text-lg font-semibold px-6 py-3 rounded-full hover:bg-yellow-300 transition duration-300">
             Voir les produits
           </button>
       </div>

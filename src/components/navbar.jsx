@@ -10,9 +10,9 @@ export default function Navbar() {
 
         {/* Menu de navigation */}
         <div className="flex gap-6 text-lg font-medium">
-          <a href="/" className="hover:text-blue-600">Accueil</a>
-          <a href="/products" className="hover:text-blue-600">Produits</a>
-          <a href="/about" className="hover:text-blue-600">À propos</a>
+          <a href="/" className="text-yellow-700 hover:text-yellow-500">Accueil</a>
+          <a href="/products" className="text-yellow-700 hover:text-yellow-500">Produits</a>
+          <a href="/about" className="text-yellow-700 hover:text-yellow-500">À propos</a>
         </div>
 
 
@@ -22,7 +22,7 @@ export default function Navbar() {
           <a href="/cart" className="relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-7 w-7 text-gray-800 hover:text-blue-600"
+              className="h-7 w-7 text-yellow-700 hover:text-yellow-500"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -42,7 +42,7 @@ export default function Navbar() {
           <a href="/auth" className="relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-7 w-7 text-gray-800 hover:text-blue-600"
+              className="h-7 w-7 text-yellow-700 hover:text-yellow-500"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
