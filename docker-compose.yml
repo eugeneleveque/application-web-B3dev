@@ -1,0 +1,9 @@
+services:
+  vue-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "443:443"
+    container_name: vuejs_app
+    restart: unless-stopped
